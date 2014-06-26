@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D202B6E7F174AF9BF0E38A5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29270423D4B0472AB429906F /* libPods.a */; };
 		E5AB14F1195A1CAB00DDD134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB14F0195A1CAB00DDD134 /* Foundation.framework */; };
 		E5AB14F3195A1CAB00DDD134 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB14F2195A1CAB00DDD134 /* CoreGraphics.framework */; };
 		E5AB14F5195A1CAB00DDD134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB14F4195A1CAB00DDD134 /* UIKit.framework */; };
@@ -22,6 +23,17 @@
 		E5AB1515195A1CAB00DDD134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB14F4195A1CAB00DDD134 /* UIKit.framework */; };
 		E5AB151D195A1CAB00DDD134 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5AB151B195A1CAB00DDD134 /* InfoPlist.strings */; };
 		E5AB151F195A1CAB00DDD134 /* owned_RouleTaBilleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB151E195A1CAB00DDD134 /* owned_RouleTaBilleTests.m */; };
+		E5AB1553195A1E8300DDD134 /* bille.png in Resources */ = {isa = PBXBuildFile; fileRef = E5AB154E195A1E8300DDD134 /* bille.png */; };
+		E5AB1554195A1E8300DDD134 /* bleu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5AB154F195A1E8300DDD134 /* bleu.jpg */; };
+		E5AB1555195A1E8300DDD134 /* jaune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5AB1550195A1E8300DDD134 /* jaune.jpg */; };
+		E5AB1556195A1E8300DDD134 /* rouge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5AB1551195A1E8300DDD134 /* rouge.jpg */; };
+		E5AB1557195A1E8300DDD134 /* vert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5AB1552195A1E8300DDD134 /* vert.jpg */; };
+		E5AB155A195A1EAA00DDD134 /* son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5AB1559195A1EAA00DDD134 /* son.mp3 */; };
+		E5AB155C195A21D500DDD134 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB155B195A21D500DDD134 /* CoreMotion.framework */; };
+		E5AB155E195A93C100DDD134 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB155D195A93C100DDD134 /* AVFoundation.framework */; };
+		E5AB1561195B1A8800DDD134 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB1560195B1A8800DDD134 /* View.m */; };
+		E5AB1564195B1E5E00DDD134 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB1563195B1E5E00DDD134 /* ViewModel.m */; };
+		E5AB1566195B38BF00DDD134 /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB1565195B38BF00DDD134 /* libReactiveCocoa-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29270423D4B0472AB429906F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B49FA5736D452D98F1B2AF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E5AB14ED195A1CAB00DDD134 /* owned-RouleTaBille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "owned-RouleTaBille.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AB14F0195A1CAB00DDD134 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E5AB14F2195A1CAB00DDD134 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +69,19 @@
 		E5AB151A195A1CAB00DDD134 /* owned-RouleTaBilleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owned-RouleTaBilleTests-Info.plist"; sourceTree = "<group>"; };
 		E5AB151C195A1CAB00DDD134 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5AB151E195A1CAB00DDD134 /* owned_RouleTaBilleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owned_RouleTaBilleTests.m; sourceTree = "<group>"; };
+		E5AB154E195A1E8300DDD134 /* bille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bille.png; sourceTree = "<group>"; };
+		E5AB154F195A1E8300DDD134 /* bleu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bleu.jpg; sourceTree = "<group>"; };
+		E5AB1550195A1E8300DDD134 /* jaune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jaune.jpg; sourceTree = "<group>"; };
+		E5AB1551195A1E8300DDD134 /* rouge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rouge.jpg; sourceTree = "<group>"; };
+		E5AB1552195A1E8300DDD134 /* vert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vert.jpg; sourceTree = "<group>"; };
+		E5AB1559195A1EAA00DDD134 /* son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = son.mp3; sourceTree = "<group>"; };
+		E5AB155B195A21D500DDD134 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E5AB155D195A93C100DDD134 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E5AB155F195B1A8800DDD134 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		E5AB1560195B1A8800DDD134 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		E5AB1562195B1E5E00DDD134 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		E5AB1563195B1E5E00DDD134 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		E5AB1565195B38BF00DDD134 /* libReactiveCocoa-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libReactiveCocoa-iOS.a"; path = "external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos/libReactiveCocoa-iOS.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +89,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AB1566195B38BF00DDD134 /* libReactiveCocoa-iOS.a in Frameworks */,
+				E5AB155E195A93C100DDD134 /* AVFoundation.framework in Frameworks */,
+				E5AB155C195A21D500DDD134 /* CoreMotion.framework in Frameworks */,
 				E5AB14F3195A1CAB00DDD134 /* CoreGraphics.framework in Frameworks */,
 				E5AB14F5195A1CAB00DDD134 /* UIKit.framework in Frameworks */,
 				E5AB14F1195A1CAB00DDD134 /* Foundation.framework in Frameworks */,
+				0D202B6E7F174AF9BF0E38A5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +119,7 @@
 				E5AB1518195A1CAB00DDD134 /* owned-RouleTaBilleTests */,
 				E5AB14EF195A1CAB00DDD134 /* Frameworks */,
 				E5AB14EE195A1CAB00DDD134 /* Products */,
+				57B49FA5736D452D98F1B2AF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +135,14 @@
 		E5AB14EF195A1CAB00DDD134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5AB1565195B38BF00DDD134 /* libReactiveCocoa-iOS.a */,
+				E5AB155D195A93C100DDD134 /* AVFoundation.framework */,
+				E5AB155B195A21D500DDD134 /* CoreMotion.framework */,
 				E5AB14F0195A1CAB00DDD134 /* Foundation.framework */,
 				E5AB14F2195A1CAB00DDD134 /* CoreGraphics.framework */,
 				E5AB14F4195A1CAB00DDD134 /* UIKit.framework */,
 				E5AB1512195A1CAB00DDD134 /* XCTest.framework */,
+				29270423D4B0472AB429906F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +156,12 @@
 				E5AB1505195A1CAB00DDD134 /* Main_iPad.storyboard */,
 				E5AB1508195A1CAB00DDD134 /* ViewController.h */,
 				E5AB1509195A1CAB00DDD134 /* ViewController.m */,
+				E5AB155F195B1A8800DDD134 /* View.h */,
+				E5AB1560195B1A8800DDD134 /* View.m */,
+				E5AB1562195B1E5E00DDD134 /* ViewModel.h */,
+				E5AB1563195B1E5E00DDD134 /* ViewModel.m */,
+				E5AB1558195A1EAA00DDD134 /* sounds */,
+				E5AB154D195A1E8300DDD134 /* images */,
 				E5AB150B195A1CAB00DDD134 /* Images.xcassets */,
 				E5AB14F7195A1CAB00DDD134 /* Supporting Files */,
 			);
@@ -155,6 +197,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E5AB154D195A1E8300DDD134 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E5AB154E195A1E8300DDD134 /* bille.png */,
+				E5AB154F195A1E8300DDD134 /* bleu.jpg */,
+				E5AB1550195A1E8300DDD134 /* jaune.jpg */,
+				E5AB1551195A1E8300DDD134 /* rouge.jpg */,
+				E5AB1552195A1E8300DDD134 /* vert.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E5AB1558195A1EAA00DDD134 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E5AB1559195A1EAA00DDD134 /* son.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5AB1522195A1CAB00DDD134 /* Build configuration list for PBXNativeTarget "owned-RouleTaBille" */;
 			buildPhases = (
+				2ABA6A7DB91E4B258B958363 /* Check Pods Manifest.lock */,
 				E5AB14E9195A1CAB00DDD134 /* Sources */,
 				E5AB14EA195A1CAB00DDD134 /* Frameworks */,
 				E5AB14EB195A1CAB00DDD134 /* Resources */,
+				477CCD20664643E7AA609D98 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +296,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5AB1507195A1CAB00DDD134 /* Main_iPad.storyboard in Resources */,
+				E5AB1554195A1E8300DDD134 /* bleu.jpg in Resources */,
+				E5AB1556195A1E8300DDD134 /* rouge.jpg in Resources */,
+				E5AB1553195A1E8300DDD134 /* bille.png in Resources */,
+				E5AB1557195A1E8300DDD134 /* vert.jpg in Resources */,
 				E5AB150C195A1CAB00DDD134 /* Images.xcassets in Resources */,
+				E5AB1555195A1E8300DDD134 /* jaune.jpg in Resources */,
 				E5AB1504195A1CAB00DDD134 /* Main_iPhone.storyboard in Resources */,
 				E5AB14FB195A1CAB00DDD134 /* InfoPlist.strings in Resources */,
+				E5AB155A195A1EAA00DDD134 /* son.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,11 +318,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ABA6A7DB91E4B258B958363 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		477CCD20664643E7AA609D98 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5AB14E9195A1CAB00DDD134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AB1564195B1E5E00DDD134 /* ViewModel.m in Sources */,
+				E5AB1561195B1A8800DDD134 /* View.m in Sources */,
 				E5AB150A195A1CAB00DDD134 /* ViewController.m in Sources */,
 				E5AB1501195A1CAB00DDD134 /* AppDelegate.m in Sources */,
 				E5AB14FD195A1CAB00DDD134 /* main.m in Sources */,
@@ -387,12 +492,19 @@
 		};
 		E5AB1523195A1CAB00DDD134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B49FA5736D452D98F1B2AF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-RouleTaBille/owned-RouleTaBille-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "owned-RouleTaBille/owned-RouleTaBille-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,12 +512,19 @@
 		};
 		E5AB1524195A1CAB00DDD134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B49FA5736D452D98F1B2AF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-RouleTaBille/owned-RouleTaBille-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "owned-RouleTaBille/owned-RouleTaBille-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +589,7 @@
 				E5AB1524195A1CAB00DDD134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5AB1525195A1CAB00DDD134 /* Build configuration list for PBXNativeTarget "owned-RouleTaBilleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +598,7 @@
 				E5AB1527195A1CAB00DDD134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
