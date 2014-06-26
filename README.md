@@ -1,5 +1,5 @@
-Exercice «RouleTaBille»
-====================
+Exercice «Roule ta Bille»
+=========================
 
 Semaine: 8
 
@@ -12,7 +12,7 @@ https://www.france-universite-numerique-mooc.fr/courses/UPMC/18001/Trimestre_2_2
 
 Plateforme de MOOC: [FUN](https://www.france-universite-numerique-mooc.fr/)
 
-![Screen capture](RouleTaBilleScreencap.mp4)
+[![Screen capture](RouleTaBilleScreencapThumbnail.png)](https://github.com/huyl/huyl-fun-upmc-iosdev-semaine8/blob/master/RouleTaBilleScreencap.mp4?raw=true)
 
 Compilation
 -----------
