@@ -12,7 +12,7 @@ https://www.france-universite-numerique-mooc.fr/courses/UPMC/18001/Trimestre_2_2
 
 Plateforme de MOOC: [FUN](https://www.france-universite-numerique-mooc.fr/)
 
-[![Screen capture](RouleTaBilleScreencapThumbnail.png)](https://github.com/huyl/huyl-fun-upmc-iosdev-semaine8/blob/master/RouleTaBilleScreencap.mp4?raw=true)
+[![Screen capture](RouleTaBilleScreencapThumbnail.png)](https://github.com/huyl/fun-upmc-iosdev-semaine8/blob/master/RouleTaBilleScreencap.mp4?raw=true)
 
 Compilation
 -----------
